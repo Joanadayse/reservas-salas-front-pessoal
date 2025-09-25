@@ -7,13 +7,6 @@ import { NavItem } from '../NavItem';
 
 
 
-interface OptionType {
-  label: string;
-  value: string;
-}
-
-
-
 interface SidebarProps {
     className?: string;
 

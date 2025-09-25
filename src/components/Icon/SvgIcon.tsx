@@ -7,13 +7,12 @@ interface SvgIconProps {
   size?: number;
 }
 export const SvgIcon: React.FC<SvgIconProps> = ({ name, className, size = 24 }) => {
-  const svg = SVG_OPTIONS[name];
+   const SvgIconComponent = SVG_OPTIONS[name];
 
-  return (
-    <span
-      className={className}
-      style={{ width: size, height: size }}
-      dangerouslySetInnerHTML={{ __html: svg }}
-    />
-  );
+return (
+  <span className={className} style={{ width: size, height: size }}>
+    <SvgIconComponent width={size} height={size} />
+  </span>
+);
+
 };
