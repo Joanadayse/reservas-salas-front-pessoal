@@ -1,7 +1,7 @@
 import html2canvas from "html2canvas";
 import AgendaSemanal from "../../components/AgendaSemanal";
-import { Button } from "@joana23a/styled-lib";
 import { Download } from "../../components/Icon";
+import { Button } from "@joana23a/styled-lib";
 
 export default function Reservas () {
 
@@ -23,9 +23,9 @@ export default function Reservas () {
  <div className="w-full h-full flex flex-col items-center p-4">
       <div className="flex justify-end w-full mb-4">
         <Button
-  variant="secondary"
+  variant="minimal"
   onClick={handleExport}
-    className="flex justify-center items-center"
+  className=" flex justify-center items-center w-[250px] h-[50px] "
 >
   <Download className="w-8 h-5 mr-4" />
   Exportar

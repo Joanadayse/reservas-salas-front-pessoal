@@ -10,7 +10,7 @@ function App() {
 
 
   return (
- <div className="flex">
+<div className="flex bg-gradient-to-br from-[#eef1ff] via-[#f8f2ff] to-[#ffffff]">
       <Sidebar />
       <div className="flex-1 p-6">
         <Routes>

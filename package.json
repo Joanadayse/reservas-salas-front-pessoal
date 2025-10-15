@@ -10,8 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@joana23a/styled-kit": "^1.0.3",
-    "@joana23a/styled-lib": "^1.0.7",
+    "@joana23a/styled-lib": "^1.0.13",
     "class-variance-authority": "^0.7.1",
     "date-fns": "^4.1.0",
     "html2canvas": "^1.4.1",

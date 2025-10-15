@@ -40,6 +40,8 @@ const reservasMock: Reserva[] = [
   { id: 10, sala: "Santos Dumont", titulo: "Equipe One", dia: "QUI", horario: "tarde", cor: "bg-purple-200" },
   { id: 11, sala: "Alan Turing", titulo: "Tech Siz", dia: "SEG", horario: "manha", cor: "bg-purple-200" },
   { id: 12, sala: "Thomas Edison", titulo: "IA em Ação", dia: "SEG", horario: "tarde", cor: "bg-yellow-200" },
+
+  { id: 13, sala: "Duília de Mello", titulo: "PENDENTE-Aguardando Confirmação", dia: "TER", horario: "tarde", cor: "bg-red-400 text-white" },
 ];
 
 export default function AgendaSemanal() {
@@ -165,6 +167,7 @@ const handleAddReserva = (novaReserva: Omit<Reserva, "id" | "sala" | "dia" | "ho
               Agenda Semanal
             </h1>
             <div className="flex items-center space-x-4">
+              <img src="logo-cor-original.png" alt="Logo" className="h-10 w-40" />
               <button
                 onClick={goToPreviousWeek}
                 className="p-2 text-gray-600 hover:text-gray-800"
